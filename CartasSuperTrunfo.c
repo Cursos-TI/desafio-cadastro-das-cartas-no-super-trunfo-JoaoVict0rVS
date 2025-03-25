@@ -67,11 +67,11 @@ int main (){
 
         // NIVEL MESTRE
            
-            //VARIAVEIS CARTA 1
+            //VARIAVEIS CARTA 1 E 2
             float Superpoder1 = (float) Populacao1 + Area1 + PIB1 + (float) Turisticos1 + PIBPC1 + (1/DensidadeP1);
             float Superpoder2 = (float) Populacao2 + Area2 + PIB2 + (float) Turisticos2 + PIBPC2 + (1/DensidadeP2);
 
-            //VARIAVEIS CARTA 2
+            //COMPRAÇÃO DE CARTAS
             int Rpopulacao = (float) Populacao1 > (float) Populacao2;
             int Rarea = Area1 > Area2;
             int Rpib = PIB1 > PIB2;
